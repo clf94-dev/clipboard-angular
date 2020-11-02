@@ -8,6 +8,7 @@ import { CompaniesComponent } from './components/companies/companies.component';
 import { FeaturesComponent } from './components/features/features.component';
 import { CtaComponent } from './components/cta/cta.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { FlexLayoutModule } from '@angular/flex-layout';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { FooterComponent } from './components/footer/footer.component';
     FooterComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FlexLayoutModule
   ],
   providers: [],
   bootstrap: [AppComponent]
