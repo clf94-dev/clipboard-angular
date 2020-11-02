@@ -32,6 +32,7 @@ $grayish-blue: hsl(201, 11%, 66%);
             width: 100%;
             img {
                 width: 100%;
+                margin-bottom: 20px;
                 @media screen and (min-width: 756px) {
                     position: relative;
                     left: -17%;
@@ -40,7 +41,7 @@ $grayish-blue: hsl(201, 11%, 66%);
         }
         .text-col {
             @media screen and (min-width:600px){
-                width: 50%;
+                width: 40%;
             }
             width: 100%;
             padding: 2%;
@@ -49,6 +50,8 @@ $grayish-blue: hsl(201, 11%, 66%);
                 margin-bottom: 120px;
             }
             .info-card {
+               
+                width: 100%;
                 h3 {
                     font-size: 22px;
                     margin-bottom: 5px;
@@ -59,7 +62,7 @@ $grayish-blue: hsl(201, 11%, 66%);
                     @media screen and (min-width: 756px) {
                         padding-right: 18%;
                     }
-                    margin-bottom: 20px;
+                    margin-bottom: 40px;
                 }
             }
         }
