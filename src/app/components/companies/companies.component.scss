@@ -1,0 +1,28 @@
+.companies-section {
+   
+    padding: 5% 7% 5% 10%;
+    text-align: center;
+    .img-col {
+      
+        @media screen and (min-width:800px){
+            width: 17%;
+            &:first-child{
+                margin-left: 30px;
+            }
+        }
+        @media screen and (min-width:500px) and (max-width:800px){
+            width: 38%;
+        }
+        width: 100%;
+        @media screen and (max-width: 756px) {
+            text-align: center;
+        }
+        margin-right: 20px;
+        margin-bottom: 20px;
+        img {
+            @media screen and (min-width: 756px) {
+                width: 75%;
+            }
+        }
+    }
+}
