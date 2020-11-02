@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import * as AOS from 'aos';
 @Component({
   selector: 'app-cta',
   templateUrl: './cta.component.html',
@@ -7,9 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CtaComponent implements OnInit {
 
-  constructor() { }
+  constructor() {
+
+   }
 
   ngOnInit(): void {
+    AOS.init()
   }
 
 }
