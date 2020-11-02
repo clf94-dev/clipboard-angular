@@ -1,1 +1,13 @@
-<p>features works!</p>
+<div class="features-section">
+    <h2>Supercharge your workflow</h2>
+    <p>We’ve got the tools to boost your productivity.</p>
+    <div class="row-feat" fxLayout="row wrap">
+        <div fxFlex.xs="100%" fxFlex.lg="33%" *ngFor="let feat of data; let i = index">
+            <img src="{{imgArray[i]}}" alt="{{feat.imgAlt}}">
+
+            <h4>{{feat.title}}</h4>
+            <p>{{feat.text}}</p>
+        </div>
+    </div>
+
+</div>
