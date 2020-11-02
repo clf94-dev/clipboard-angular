@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { MiddleInfo } from './middleCardInfo';
-
+import * as AOS from 'aos';
 @Component({
   selector: 'app-middle',
   templateUrl: './middle.component.html',
@@ -20,6 +20,7 @@ export class MiddleComponent implements OnInit {
   }
 
   ngOnInit(): void {
+    AOS.init()
   }
 
 }
