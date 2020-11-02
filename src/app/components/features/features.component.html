@@ -2,7 +2,7 @@
     <h2>Supercharge your workflow</h2>
     <p>We’ve got the tools to boost your productivity.</p>
     <div class="row-feat" fxLayout="row wrap">
-        <div fxFlex.xs="100%" fxFlex.lg="33%" *ngFor="let feat of data; let i = index">
+        <div fxFlex.xs="100%" fxFlex.sm="100%" fxFlex.md="33%" fxFlex.lg="33%" *ngFor="let feat of data; let i = index" class="feat-col">
             <img src="{{imgArray[i]}}" alt="{{feat.imgAlt}}">
 
             <h4>{{feat.title}}</h4>

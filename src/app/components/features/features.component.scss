@@ -1,0 +1,32 @@
+$grayish-blue: hsl(201, 11%, 66%);
+.features-section {
+    text-align: center;
+    padding: 5% 7%;
+    h2 {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    p {
+        font-size: 16px;
+        color: $grayish-blue;
+        margin-bottom: 60px;
+    }
+    .row-feat {
+     .feat-col  { 
+        @media screen and (min-width:800px){
+            width: 33%;
+          
+        }
+      
+        width: 100%;
+         h4 {
+            font-size: 20px;
+        }
+        p {
+            font-size: 16px;
+            color: $grayish-blue;
+            padding: 0 15%;
+            margin-bottom: 60px;
+        }}
+    }
+}
