@@ -4,9 +4,9 @@
         <p data-aos="fade-right" data-aos-delay="450">Clipboard instantly stores any item you copy in the cloud, meaning you can access your snippets immediately on all your devices. Our Mac and iOS apps will help you organize everything.</p>
     </div>
     <div class="row-middle" fxLayout="row wrap">
-        <div class="img-col" fxFlex.xs="100%" fxFlex.sm="50%" fxFlex.md="50%" fxFlex.lg="50%" data-aos='fade-right' data-aos-delay="550">
+        <div class="img-col" data-aos='fade-right' data-aos-delay="550" fxFlex.xs="100%" fxFlex.sm="50%" fxFlex.md="50%" fxFlex.lg="50%" data-aos='fade-right' data-aos-delay="550">
             <img src="{{desktopImg}}" alt="computer"></div>
-        <div class="text-col" fxFlex.xs="100%" fxFlex.sm="50%" fxFlex.md="50%" fxFlex.lg="50%" data-aos='fade-left' data-aos-delay="650">
+        <div class="text-col" data-aos='fade-left' data-aos-delay="650" fxFlex.xs="100%" fxFlex.sm="50%" fxFlex.md="50%" fxFlex.lg="50%" data-aos='fade-left' data-aos-delay="650">
             <div class='info-card' *ngFor='let indData of data; let i=index'>
                 <h3>{{indData.title}}</h3>
                 <p>{{indData.text}}</p>
