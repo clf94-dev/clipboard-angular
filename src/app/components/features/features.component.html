@@ -1,13 +1,14 @@
 <div class="features-section">
-    <h2>Supercharge your workflow</h2>
-    <p>We’ve got the tools to boost your productivity.</p>
+    <h2 data-aos="fade-right" data-aos-delay="100">Supercharge your workflow</h2>
+    <p data-aos="fade-right" data-aos-delay="100">We’ve got the tools to boost your productivity.</p>
     <div class="row-feat" fxLayout="row wrap">
         <div fxFlex.xs="100%" fxFlex.sm="100%" fxFlex.md="33%" fxFlex.lg="33%" *ngFor="let feat of data; let i = index" class="feat-col">
-            <img src="{{imgArray[i]}}" alt="{{feat.imgAlt}}">
+       
+            <img data-aos="fade-up" src="{{imgArray[i]}}" alt="{{feat.imgAlt}}">
 
-            <h4>{{feat.title}}</h4>
-            <p>{{feat.text}}</p>
-        </div>
+            <h4 data-aos="fade-up">{{feat.title}}</h4>
+            <p data-aos="fade-up">{{feat.text}}</p></div> 
+        
     </div>
 
 </div>
